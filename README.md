@@ -1,51 +1,54 @@
-# ⚽ Football Data Analysis with StatsBomb and mplsoccer
+# ⚽ Football Data Analysis Portfolio
 
-Welcome to this repository dedicated to exploring football data analysis using open-source tools and data. Whether you're interested in tactical analysis, player performance, or match event visualization, this project offers a comprehensive guide to analyzing and visualizing football data.
+Welcome to this portfolio where I document my projects and learning journey in football data analysis, utilizing open-source tools and data science methodologies. This is a continuous project aimed at improving and showcasing skills in data analysis, visualization, and interpretation within the context of football.
 
-## 🔧 Tools and Resources Used
-- **StatsBomb Open Data** - [Repository](https://github.com/statsbomb/open-data.git)
-- **StatsBombPy API** - [Repository](https://github.com/statsbomb/statsbombpy)
-- **mplsoccer** - [Documentation](https://mplsoccer.readthedocs.io/)
+## 🗂 Projects
+- [x] **Lionel Messi's Pass Analysis during the 2022 World Cup Final**
+  - Description: A detailed breakdown and visualization of Lionel Messi's passing patterns in the 2022 World Cup Final using `StatsBomb` data and `mplsoccer`.
+  - Status: Completed
 
-## 🌟 Overview
-This repository is designed to help you:
-- Set up your environment for football data analysis using Python.
-- Explore various competitions, matches, and events with a focus on real-world data.
-- Create detailed visualizations to represent passes, shots, player positioning, and more.
+- [ ] **Computer Vision System for Soccer Matches**
+  - Description: In this project, I use machine learning, computer vision and deep learning to create a football analysis system. 
+  - Status: In progress
 
-## 🗂 Project Structure
-- **notebooks/**: Contains Jupyter Notebooks for various football analyses, such as:
-  - **messi_pass_2022_wc_final.ipynb**: A detailed analysis of Lionel Messi's pass during the 2022 FIFA World Cup Final, demonstrating advanced data visualization.
-  - **other_analyses.ipynb**: Placeholder for future notebooks that cover different types of football data exploration and analysis.
-- **data/**: Directory for storing data files used in the analyses, such as 360 data or match events.
+*More projects to be added as the portfolio evolves.*
 
-## 📚 How to Use This Repository
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/football-data-analysis.git
-   cd football-data-analysis
-   ```
+## 📚 Books and Articles to Read
+- [ ] "Dados FC: A Gestão da Informação Aplicada ao Futebol" por Vitor A. Principe
+- [ ] "Moneyball: O Homem que Mudou o Jogo" por Michael Lewis
+- [ ] "Soccermatics: Mathematical Adventures in the Beautiful Game" por David Sumpter
+- [ ] "The Numbers Game: Why Everything You Know About Football is Wrong" por Chris Anderson e David Sally
+- [ ] "Football Hackers: The Science and Art of a Data Revolution" por Christoph Biermann
+- [ ] "Expected Goals Philosophy: A Game-Changing Way of Analysing Football" por James Tippett
+- [ ] "Inverting the Pyramid: The History of Football Tactics" por Jonathan Wilson
+- [ ] "The Mixer: The Story of Premier League Tactics, from Route One to False Nines" por Michael Cox
+- [ ] "Zonal Marking: From Ajax to Zidane, the Making of Modern Soccer" por Michael Cox
+- [ ] "Football Analytics: Now and Beyond" por Henry Chukwuma
+- [ ] "The Expected Goals Method: A Guide to Advanced Football Analytics" por Daniel Altman
+- [ ] "Data Science and Sports Analytics" por Ruud H. Koning e James Skinner
+- [ ] "Mathletics: How Gamblers, Managers, and Sports Enthusiasts Use Mathematics in Baseball, Basketball, and Football" por Wayne L. Winston
+- [ ] "Statistical Modelling and Sports Business Analytics" por Vanessa Ratten
+- [ ] "Sports Analytics: A Guide for Coaches, Managers, and Other Decision Makers" por Benjamin C. Alamar
+- [ ] "The Data Revolution in Football: A Guide to the New Science of Winning" por Daniel Memmert e Dominik Raabe
+- [ ] "Football Analytics with Python & R" por Eric A. Eager e Richard A. Erickson
+- [ ] "Sports Analytics and Data Science: Winning the Game with Methods and Models" por Thomas W. Miller
+- [ ] "Soccer Analytics: Successful Coaching Through Match Analysis" por Ian Franks e Mike Hughes
+- [ ] "The Science of Soccer: A Bouncing Ball and a Banana Kick" por John Wesson
 
+## 🎥 Videos to Watch
+- Discussions
+   - [ ] Ciência de Dados Aplicada em Esportes - Futebol ([Link](https://www.youtube.com/watch?v=2njgYyl6Kk0))
+   - [ ] DataFut (Dia 1) - Ciência de Dados Aplicada à Análise de Desempenho e Mercado ([Link](https://www.youtube.com/watch?v=au6PwztxRS4))
+   - [ ] A Ciência de Dados no Futebol | Pedro Monteiro ([Link](https://www.youtube.com/watch?v=sQg2zKb1dBw))
+   - [ ] Ciência de Dados Aplicada ao Futebol ([Link](https://www.youtube.com/watch?v=9n7sE_6gyGU))
+   - [ ] Futebol e Ciência de Dados: Desvendando os Segredos do Jogo ([Link](https://www.youtube.com/watch?v=iH0I7hCcp6c))
+   - [ ] Ciência de Dados no Futebol Pode Acelerar os Avanços da Inteligência Artificial ([Link](https://www.youtube.com/watch?v=K0xsS54HnPk))
+   - [ ] SEIC 2023 - Ciência de Dados Aplicada ao Futebol ([Link](https://www.youtube.com/watch?v=8Z8p52Zclgg))
+   - [ ] A Ciência de Dados Aplicada ao Futebol | Gabriel Daiha ([Link](https://www.youtube.com/watch?v=B5MJbq9j6Rg))
+   - [ ] A Ciência de Dados nos Clubes Brasileiros | Gabriel Daiha ([Link](https://www.youtube.com/watch?v=0jFulSx0ESo))
+   - [ ] Futebol Brasileiro x Europeu - A Retomada dos Anos de Ouro ([Link](https://www.youtube.com/watch?v=RTK0IYF6wIo))
+   - [ ] Descubra os Segredos do Futebol com a Ciência de Dados ([Link](https://www.youtube.com/watch?v=s-ST2kxiizw))
+   - [ ] Futebol e Ciência de Dados: Desvendando os Segredos do Jogo ([Link](https://www.youtube.com/watch?v=ks3Ng0h641k))
 
-2. **Install the required libraries: Ensure you have StatsBombPy, mplsoccer, and other dependencies installed:**
-
-   ```bash
-   pip install statsbombpy mplsoccer pandas matplotlib
-   ```
-   
-3. **Navigate to the Jupyter Notebooks: Open any notebook in the notebooks/ directory to follow step-by-step tutorials on various analyses, such as visualizing passes, comparing players, and tactical breakdowns.**
-
-
-## 💻 Key Features
-- Competition and Match Exploration: Select and filter matches from different competitions using StatsBomb data.
-
-- Detailed Event Analysis: Use StatsBombPy to extract event data and combine it with 360 data for enriched insights.
-
-- Custom Visualizations: Create pass maps, shot charts, and player positioning visualizations with mplsoccer for clear and compelling data representation.
-
-## 🚀 Getting Started with Analyses
-This repository is an excellent starting point for analysts, data scientists, and football enthusiasts interested in applying data science techniques to football data. The step-by-step notebooks guide you through different aspects of analysis, helping you build and customize your own projects.
-
-🙌 Acknowledgments
-StatsBomb for providing open data to support educational and non-commercial analysis.
-Community Contributors and Educators for inspiring and supporting football data analytics.
+- Courses and Tutorials
+   - [ ] Training ground: improve your skills in football data science - Friends of Tracking  ([Playlist](https://www.youtube.com/watch?v=r7frxADMgO8&list=PLedeYskZY0vDSs-piCFGhMtp9eBbDiapZ))
