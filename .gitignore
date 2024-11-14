@@ -163,3 +163,17 @@ cython_debug/
 
 # protecting api key
 .env
+
+# images, videos and misc
+*.jpg
+*.txt
+*.png
+*.avi
+*.mp4
+*.pkl
+*.csv
+*.cache
+
+# model weights
+*.pt
+
